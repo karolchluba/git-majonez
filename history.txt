@@ -1,0 +1,35 @@
+  848  mkdir git-majonez
+  849  cd git-
+  850  cd git-majonez/
+  851  git init
+  852  ls -l
+  853  ls -la
+  854  touch main.cpp
+  855  git add main.cpp
+  856  git status
+  857  git commit -m "Initial commit"
+  858  git status
+  859  git add main.cpp
+  860  git commit -m "Farewell changed"
+  861  git remote add origin git@github.com:karolchluba/git-majonez.git
+  862  git push -u origin main
+  863  git push -u origin master
+  864  git branch cs
+  865  git checkout cs
+  866  git reset --hard HEAD^
+  867  git log
+  868  git status
+  869  git add main.cpp
+  870  git commit -m "Greetings"
+  871  git checkout master 
+  872  git push origin cs
+  873  git merge cs
+  874  git status
+  875  git add main.cpp
+  876  git commit 
+  877  git status
+  878  git log
+  879  history | tail -43 > history.txt
+  880  rm -rf history.txt
+  881  history
+  882  history | tail -35 > history.txt
